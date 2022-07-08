@@ -1,34 +1,58 @@
-.box-container{
-  width: 367.5px;
-  height: 556.5px;
-  border: 1px solid black;
+*{margin: 0; padding: 0;}
+ul,ol{list-style: none;}
+img{border: 0;}
+
+.player-Wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 10px 50px rgb(0 0 0 / 30%);
+    width: 75%;
 }
-.player-wrapper{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 10px;
-  
+.player1{
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding: 100px;
+    background-color: #f7f7f7;
+    box-sizing: border-box;
 }
-h1{
-  font-weight: 100;
-  color: #595959;
-  font-size: 40px;
+.player1 .name {font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
-.my-score{
-  font-size: 80px;
-  color: #EB4D4D;
-  font-weight: 100;
+.player1 .name:after{
+    content: "\2022";
+    font-size: 47px;
+    position: absolute;
+    color: #EB4D4D;
+    top: -7px;
+    left: -10px;
 }
-.score-wrapper{
-  display: flex;
-  justify-content: center;
+.player1 .score{    text-align: center;
+    font-size: 80px;
+    font-weight: 100;
+    color: #EB4D4D;
+    margin-bottom: 50px;
 }
-.current-wrapper{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  background-color: #EB4D4D;
- 
+.player1 .currentBox{    background-color: #EB4D4D;
+    color: #fff;
+    width: 40%;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
 }
+.player1 .currentBox span{
+    color: #000;
+    font-size: 13px;
+}
+.player1 .currentBox p{
+    margin: 8px 0 0;
+    font-size: 30px;
+}
+/*  */
