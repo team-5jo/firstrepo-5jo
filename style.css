@@ -1,0 +1,34 @@
+.box-container{
+  width: 367.5px;
+  height: 556.5px;
+  border: 1px solid black;
+}
+.player-wrapper{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  
+}
+h1{
+  font-weight: 100;
+  color: #595959;
+  font-size: 40px;
+}
+.my-score{
+  font-size: 80px;
+  color: #EB4D4D;
+  font-weight: 100;
+}
+.score-wrapper{
+  display: flex;
+  justify-content: center;
+}
+.current-wrapper{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #EB4D4D;
+ 
+}
