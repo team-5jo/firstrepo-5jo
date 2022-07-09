@@ -84,6 +84,9 @@ img {
 .btn-roll {
   bottom: 29%;
 }
+.btn-bank {
+  bottom: 20%;
+}
 .btn i {
   display: inline-block;
   transition: margin-right 0.5s;
